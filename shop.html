@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Mina:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/shop.css">
+    <title>Florita</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <div id="main" class="toggle">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+            <div class="logo">
+                <div class="logo-info">
+                    <p class="upper">FLOWER POWER</p>
+                    <p class="lower">Flower <img src="images/logo-1.jpg" alt="" id="logo-img" width="30px"> Shop</p>
+                </div>
+            </div>
+            <nav class="nav-bar">
+                <a href="index.html" class="active">Home</a>
+                <a href="shop.html" class="">Shop</a>
+                <a href="#" class="">Services</a>
+                <a href="" class="">Clients</a>
+                <a href="#" class="">About Us</a>
+                <a href="#" class="">Contact Us</a>
+            </nav>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i id="basket" class="fa-solid fa-basket-shopping "></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- start side bar  -->
+    <div id="mySidebar" class="sidebar">
+        <div class="head">
+            <div class="logo">
+                <p class="upper">FLOWER POWER</p>
+                <p class="lower">Flower <img src="images/logo-1.jpg" alt="" id="logo-img" width="30px"> Shop</p>
+            </div>
+        </div>
+        <div class="body">
+            <a href="index.html" class="first">Home</a>
+            <a>Shop</a>
+            <a>Services</a>
+            <a>Clients</a>
+            <a class="last">Contact Us</a>
+        </div>
+        <div class="tail">
+            <div class="up">
+                <i class="fa-regular fa-eye"></i>
+                <p>Recently Viewed Products</p>
+            </div>
+            <div class="down">
+                <i class="fa-solid fa-table-list"></i>
+                <p>Track Order</p>
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <!-- end side bar -->
+
+    <!-- start shop sectin -->
+    <div class="path">
+        <a href="">Home</a>
+        <span>> Shop</span>
+    </div>
+    <h2 class="shop-title">Shop</h2>
+    <div class="container shop-settings">
+        <div class="shop-menu">
+            <div class="left">
+                <p class="filter">
+                    <i class="fa-solid fa-filter"></i>
+                    <span>FILTER</span>
+                </p>
+                <p class="show-sale">
+                    <i class="fa-regular fa-square"></i>
+                    <span>Show only products on sale</span>
+                </p>
+            </div>
+            <div class="right">
+                <p class="view">
+                    <i class="fa-solid fa-border-all horz"></i>
+                    <i class="fa-solid fa-grip-vertical vert"></i>
+                </p>
+                <div class="sort">
+                    <pre>Sort by latest        <i class="fa-solid fa-chevron-down"></i></pre>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end shhop section  -->
+
+    <!-- start images  -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="block">
+
+                <div class="img"><img src="images/shop-1.png" alt="">
+                </div>
+                <h3>VIBRANT CHARM</h3>
+                <p>2,225.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-2.png" alt=""></div>
+                <h3>BEAUTIFUL & UNIQUE</h3>
+                <p>2,915.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-3.png" alt=""></div>
+                <h3>CLASSIC CHARM</h3>
+                <p>2,950.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-4.jpg" alt=""></div>
+                <h3>SWEET SPRING</h3>
+                <p>1,230.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-5.jpg" alt=""></div>
+                <h3>THE PINK ORCHID</h3>
+                <p>1,920.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-6.jpg" alt=""></div>
+                <h3>ORCHID DREAMS</h3>
+                <p>1,920.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-7.jpg" alt=""></div>
+                <h3>TROPICAL VIBES</h3>
+                <p>1,710.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-8.jpg" alt=""></div>
+                <h3>SUNSHINE</h3>
+                <p>1,455.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-9.jpg" alt=""></div>
+                <h3>EXOTIC BEAUTY</h3>
+                <p>1,970.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shopp-10.jpg" alt=""></div>
+                <h3>BIRD OF PARADISE</h3>
+                <p>980.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-11.jpg" alt=""></div>
+                <h3>SUMMER BASKET</h3>
+                <p>2,025.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-12.jpg" alt=""></div>
+                <h3>SUMMER BREEZE</h3>
+                <p>1,200.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-13.jpg" alt=""></div>
+                <h3>TROPICAL</h3>
+                <p>1,225.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-14.jpg" alt=""></div>
+                <h3>IT'S A GIRL</h3>
+                <p>2,940.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-15.jpg" alt=""></div>
+                <h3>IT'S A BOY</h3>
+                <p>2,565.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-16.jpg" alt=""></div>
+                <h3>JOYFUL</h3>
+                <p>2,160.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-17.jpg" alt=""></div>
+                <h3>WILD BEAUTY</h3>
+                <p>2,065.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-18.jpg" alt=""></div>
+                <h3>MORNING FRESHNESS</h3>
+                <p>1,700.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-19.jpg" alt=""></div>
+                <h3>BEAUTIFUL SUNSHINE</h3>
+                <p>1,385.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-20.jpg" alt=""></div>
+                <h3>PURE WHITE</h3>
+                <p>2,500.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-21.jpg" alt=""></div>
+                <h3>PRETTY IN PINK</h3>
+                <p>2,025.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-22.jpg" alt=""></div>
+                <h3>PINK SWEETHEART</h3>
+                <p>1,520.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-23.jpg" alt=""></div>
+                <h3>THINK GREEN</h3>
+                <p>1,790.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-24.jpg" alt=""></div>
+                <h3>ONLY FOR YOU</h3>
+                <p>1,940.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-25.jpg" alt=""></div>
+                <h3>MADE FOR YOU</h3>
+                <p>1,590.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-26.jpg" alt=""></div>
+                <h3>LILY BLOOM</h3>
+                <p>2,660.00 EGP</p>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="img"><img src="images/shop-27.jpg" alt=""></div>
+                <h3>SPECIAL ORDERS</h3>
+                <div class="add">
+                    <p>+ Add to cart</p>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <p class="viewed">You've viewed all the products</p>
+    </div>
+
+    <!-- end images -->
+
+
+    <!-- start joining -->
+    <div class="joining">
+        <div class="container join">
+            <div class="text">
+                <h2>Join our newsletter and get…</h2>
+                <p>Join our email subscription now to get updates on promotions and coupons.
+
+                </p>
+                <div class="input-email">
+                    <input type="email" placeholder="Your email here..." class="">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="icons">
+                <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+                <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+        </div>
+    </div>
+    <!-- end joining  -->
+
+    <!-- start help  -->
+    <div class="container">
+        <div class="help">
+            <div class="left">
+                <div class="logo">
+                    <div class="logo-info">
+                        <p class="upper">FLOWER POWER</p>
+                        <p class="lower">Flower <img src="images/logo-1.jpg" alt="" id="logo-img" width="30px"> Shop</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>Need help? Call us: (+2) 01277705777</h3>
+                    <p>Opening Hours : Daily, from 10am to 10pm</p>
+                </div>
+            </div>
+            <div class="right">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+            </div>
+        </div>
+    </div>
+    <!-- end help  -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="left">
+                &copy; <span>Flower Power</span> - All Rights Reserved.
+            </div>
+            <div class="right">
+                <a href="">Terms and Conditioons</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Contact Us</a>
+                <a href="">About Us</a>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- to top btn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- end to top  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
